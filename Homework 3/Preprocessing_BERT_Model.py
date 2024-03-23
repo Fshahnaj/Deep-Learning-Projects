@@ -288,8 +288,8 @@ for epoch in range(EPOCHS):
     train_acc, train_loss = train_epoch(model, train_data_loader, epoch+1)
 
     print('Epoch - {}'.format(epoch))
-    print(f"Model Accuracy: {train_acc}")
-    print(f"Model Loss: {train_loss}")
+    print(f"Accuracy: {train_acc}")
+    print(f"Loss: {train_loss}")
 
     answer_list = eval_model(model, valid_data_loader)
     pred_answers=[]
