@@ -1,1 +1,1 @@
-# CPSC-8430-Deep-Learning
+##Deep-Learning-Projects
